@@ -26,7 +26,7 @@ Ensure you have Python 3.x or higher installed.
 
 Install the library with pip:
 ```bash
-pip install movieapi
+pip install Fastapi, dotenv, requests, typing, pydantic
 ```
 
 ## Quick Start
@@ -37,7 +37,7 @@ To get started, import the library and use the primary function:
 from omdb_client import OMDbClient
 
 # Example usage
-result = main_function("example input")
+result = omdb_client.get_movie_details(movie_id)
 print(result)
 ```
 
@@ -54,7 +54,7 @@ print(result)
 
 ### Example 3: Saving Output
 
-You can save the output to a file:
+Since we're working with FastAPI, everything will be web-based (using uvicorn) but you can save the output to a file:
 
 ```python
 from project_name import main_function
@@ -95,4 +95,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or support, please open an issue or reach out to the maintainer at [klenam.chris24@gmail.com].
+For questions or support, please open an issue or reach out to the maintainer at [ayokwashie42@gmail.com].
