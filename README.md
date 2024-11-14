@@ -22,11 +22,11 @@
 
 ## Installation
 
-Ensure you have Python 3.x or higher installed.
+Ensure you have Python 3.x or higher installed and the latest version of pip.
 
 Install the library with pip:
 ```bash
-pip install Fastapi, dotenv, requests, typing, pydantic
+pip install fastapi[standard], dotenv, requests, typing, pydantic
 ```
 
 ## Quick Start
@@ -64,6 +64,31 @@ result = main_function("example input")
 with open("output.json", "w") as file:
     json.dump(result, file)
 ```
+
+Or in your terminal, run:
+```bash
+fastapi dev main.py
+```
+Open your browser at http://127.0.0.1:8000
+
+## Example Usage:
+```
+search
+    http://127.0.0.1:8000/search/nimona
+    
+You will see the JSON response as:
+{
+    "Search": [
+        {
+            "Title": "Nimona",
+            "Year": "2023",
+            "imdbID": "tt19500164",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNTQ2YWZlODctNTJlNS00N2NlLWJlNDktZjM4MmRlYmQ1YWU1XkEyXkFqcGc@._V1_SX300.jpg"
+        },]
+}
+```
+
 
 ## Configuration
 
