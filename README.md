@@ -95,4 +95,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or support, please open an issue or reach out to the maintainer at [ayokwashie42@gmail.com].
+For questions or support, please open an issue or reach out to me at [ayokwashie42@gmail.com].
