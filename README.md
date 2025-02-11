@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 **Movie Scraper** is a python based library for scraping movie data from various sources, designed to help developers easily retrieve details like movie titles, cast, genre, ratings, and more. This library is ideal for projects that require robust movie data without relying on paid APIs.
 
